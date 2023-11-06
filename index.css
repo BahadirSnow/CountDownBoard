@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    font-family: Verdana, sans-serif
+}
+
+/* Container for the whole board*/
+.container {
+    display: flex;
+    flex-direction: column;
+    align-content: space-evenly;
+    background: #1B244A;
+    width: 575px;
+    height: 450px;
+    margin: 30px auto 0;
+    border-radius: 20px;
+}
+
+/* Timer */
+#timer{
+    color: orange;
+    text-align: center;
+    font-family: Cursed Timer ULiL;
+    font-size: 50px;
+    font-style: normal;
+    width: 200px;
+    height: 60px;
+    line-height: 70px;
+    background-color: #080001;
+    margin: 20px auto 0;
+    border-radius: 10px;
+}
+
+/* Container for both scores and add buttons */
+.scores{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/* Container for both each team*/
+.team-container{
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.teams{
+    color: #EEE;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    margin: 20px 0 20px;
+}
+
+.score{
+    color: #F94F6D;
+    text-align: center;
+    font-family: Cursed Timer ULiL;
+    font-size: 90px;
+    font-style: normal;
+    line-height: 140px;
+    width: 160px;
+    height: 120px;
+    background-color: #080001;
+    margin: 0;
+    border-radius: 10px;
+}
+
+.sml-btn{
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+    border: 2px solid;
+    background: transparent;
+    color: #9AABD8;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    margin: 10px 1px;
+    padding: 6px;
+}
+
+/* Extra buttons container at the bottom*/
+.extras{
+    display:flex;
+    justify-content: center;
+}
+
+
+#new-game{
+    width: 100px;
+    border-radius: 10px;
+    border: 2px solid;
+    background: transparent;
+    color: #9AABD8;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    margin: 5px 10px;
+}
+
+#startButton{
+    width: 100px;
+    border-radius: 10px;
+    border: 2px solid;
+    background: transparent;
+    color: #9AABD8;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    margin: 5px 10px;
+}
+
